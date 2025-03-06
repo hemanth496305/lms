@@ -1,5 +1,5 @@
 import React from "react";
-import logoSrc from "../assets/img.jpg";
+import logoSrc from "../assets/download.png";
 import { Link, useLocation, useRouter } from "@tanstack/react-location";
 import TopBarLoader from "../components/TopBarLoader";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -18,7 +18,7 @@ function MainLayout(props: MainLayoutProps) {
       <div className="sticky top-0 z-10 flex items-center justify-between bg-white px-4 drop-shadow-lg">
         <div>
           <Link to={"/"}>
-            <img src={logoSrc} alt="Vneed" />
+            <img src={logoSrc} alt="Vcube" />
           </Link>
         </div>
 
